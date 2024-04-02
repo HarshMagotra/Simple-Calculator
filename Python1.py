@@ -18,6 +18,8 @@ def mul(a,b):
 
 def div(a,b):
   print("The division is: ",a/b)
+def rem(a,b):
+  print("The remainder is: ",a%b)
 
 a=float(input("Enter first number: "))
 b=float(input("Enter second number: "))
@@ -35,5 +37,8 @@ elif(op=='*'):
 elif(op=='/'):
   div(a,b)
 
+elif(op=='%'):
+  rem(a,b)
+  
 else:
   print("Not valid")
